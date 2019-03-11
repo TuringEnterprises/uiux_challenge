@@ -1,0 +1,11 @@
+.challenge-row {
+  width: 60rem;
+  margin-right: 0;
+  margin-left: 0;
+  margin: auto;
+}
+
+.challenge-col {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
