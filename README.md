@@ -1,4 +1,4 @@
-# UI/UX Challenge
+# UIUX Challenge
 
 This source is the HTML/CSS source for UIUX challenge.
 https://app.zeplin.io/project/5c5334039c3e07307b1fbb96/screen/5c5745b80063923541dce1b9
@@ -10,14 +10,11 @@ This source used flexbox grid as a grid system.
 ```
 
 ### [Zeplin](https://zeplin.io)
-The sample page is designed with Zeplin. 
-
-Here is a credential for this one.
+The sample page is designed with Zeplin. Here is a credential for this one.
 ```
 username: turingdeveloper@gmail.com
 password: 111111
 ```
-
 
 ---
 © 2019 [Turing, Inc.](https://turing.com)
