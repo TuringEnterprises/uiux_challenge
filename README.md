@@ -16,5 +16,11 @@ username: turingdeveloper@gmail.com
 password: 111111
 ```
 
+### Screeshots
+Sample page
+![Screenshot](screenshots/ui_sample.png)
+
+Main layout
+![Screenshot](screenshots/ui_layout.png)
 ---
 © 2019 [Turing, Inc.](https://turing.com)
