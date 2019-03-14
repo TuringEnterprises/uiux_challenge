@@ -105,6 +105,7 @@ body {
   widows: 100%;
   height: 15.0625rem;
   background-color: #2a2a2a;
+  text-align: center;
 }
 
 .no-padding {
@@ -448,3 +449,83 @@ body {
   letter-spacing: 1px;
   color: #ffffff;
 }
+
+.subscribe-label {
+  display: inline-table;
+  padding-top: 1.65rem;
+  padding-left: 1.875rem;
+  float: left;
+  font-family: "Lucida Grande";
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  color: #2e2e2e;
+}
+
+.subscribe-operation {
+  display: inline-table;
+  float: right;
+  padding-top: 1.3rem;
+  padding-right: 1.875rem;  
+}
+
+.footer-menu {
+  text-align: left;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  line-height: 1.5;
+  padding-top: 2.95rem;
+}
+
+.footer-menu1 {
+  display: inline-block;
+  padding-left: 8.7rem;
+}
+
+.footer-menu2 {
+  display: inline-block;
+  padding-left: 4.2rem;
+}
+
+.footer-menu3 {
+  display: inline-block;
+  padding-left: 5.1rem;
+}
+
+.footer-menu4 {
+  display: inline-block;
+  padding-left: 5.5rem;
+}
+
+.footer-menu5 {
+  display: inline-block;
+  padding-left: 5.4rem;
+}
+
+.footer-social {
+  padding-top: 1.3rem;
+}
+
+.social-icon {
+  padding: 0.5rem;
+}
+
+.footer-company {
+  padding-top: 0.8rem;
+  font-family: Montserrat;
+  font-size: 15.5px;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  line-height: 1.5;
+  color: #626262;
+}
+
