@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/challenge.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:100,200,300,400,500,600,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div class="challenge-container">
@@ -60,9 +61,10 @@
               </ul>
             </div>
             <div class="header-search">
-              Search Anything
+              <input class="input-search" type="text" placeholder="Search anything">
+              <img class="search-close-icon" src="./images/icon_close_white.png">
             </div>
-            <div class="header-badge banner-badge">
+            <div class="header-badge">
               <a href="#" class="badge-button">
                 <img src="./images/icon_lock_white.png">
                 <span class="badge-icon badge-red">6</span>                  
@@ -71,7 +73,7 @@
           </div>
         </div>
       </div>
-      <div class="challenge-row row challenge-space1"></div>
+      <div style="height: 1.4375rem"></div>
       <div class="challenge-row row">
         <div class="challenge-col col-lg-12">
           <div class="challenge-main">
@@ -88,22 +90,48 @@
           </div>  
         </div>
       </div>
-      <div class="challenge-row row challenge-space1"></div>
+      <div style="height: 1.5rem"></div>
       <div class="challenge-row row">
         <div class="challenge-col col-lg-3">
           <div class="challenge-filter">
             <div class="filter-title">Filter 486 items</div>
             <div class="filter-cond">
-              <img src="./images/icon_close.png">
+              <img src="./images/icon_close_black.png">
               <span class="color-grey">Gender:</span> Woman
             </div>
             <div class="filter-cond">
-              <img src="./images/icon_close.png">
+              <img src="./images/icon_close_black.png">
               <span class="color-grey">Category:</span> Dresses
             </div>
           </div>
-          <div class="challenge-option"></div>
-          <div class="challenge-operation"></div>
+          <div class="challenge-option">
+            <div style="height: 1.95rem"></div>
+            <div class="option-title">Color</div>
+            <div class="product-circle">
+              <div class="circle circle-blue"></div>
+              <div class="circle circle-green"></div>
+              <div class="circle circle-red"></div>
+              <div class="circle circle-brown"></div>
+              <div class="circle circle-yellow"></div>
+              <div class="circle circle-greenyellow"></div>
+              <div class="circle circle-purple"></div>
+            </div>
+            <div style="height: 1.05rem"></div>
+            <div class="option-title">Size</div>
+            <div style="height: 0.9rem"></div>
+            <button type="button" class="btn btn-size btn-grey">XS</button>
+            <button type="button" class="btn btn-size">S</button>
+            <button type="button" class="btn btn-size btn-grey">M</button>
+            <button type="button" class="btn btn-size btn-grey">L</button>
+            <button type="button" class="btn btn-size btn-grey">XL</button>
+            <div style="height: 1rem"></div>
+            <div class="option-title">Price range</div>
+          </div>
+          <div class="challenge-operation">
+            <div style="height: 0.9rem"></div>
+            <button type="button" class="btn btn-round btn-filter-apply">Apply</button>
+            <button type="button" class="btn btn-round btn-filter-clear"><img src="./images/icon_close_red.png">&nbsp;&nbsp;Clear All</button>
+          </div>
         </div>
         <div class="challenge-col col-lg-9">
           <div class="row">
@@ -114,7 +142,7 @@
                 <div style="height: 1.8rem"></div>
                 <div class="product-title bold">Men's Knitwear Offers</div>
                 <div style="height: 0.9rem"></div>
-                <button type="button" class="btn">Buy now</button>
+                <button type="button" class="btn btn-round">Buy now</button>
               </div>
             </div>
             <div class="challenge-col col-lg-4">
@@ -142,7 +170,7 @@
               </div>
             </div>
           </div>
-          <div class="challenge-space1"></div>
+          <div style="height: 1.5rem"></div>
           <div class="row">
             <div class="challenge-col col-lg-4">
               <div class="challenge-item">
@@ -162,7 +190,7 @@
                 <div style="height: 1.8rem"></div>
                 <div class="product-title bold">Novelty T-shirts</div>
                 <div style="height: 0.9rem"></div>
-                <button type="button" class="btn">Buy now</button>
+                <button type="button" class="btn btn-round">Buy now</button>
               </div>
             </div>
             <div class="challenge-col col-lg-4">
@@ -182,7 +210,7 @@
           </div>
         </div>
       </div>
-      <div class="challenge-row row challenge-space1"></div>
+      <div style="height: 1.5rem"></div>
       <div class="challenge-row row">
         <div class="challenge-col col-lg-4">
           <div class="challenge-item">
@@ -218,7 +246,7 @@
           </div>
         </div>
       </div>
-      <div class="challenge-row row challenge-space1"></div>
+      <div style="height: 1.5rem"></div>
       <div class="challenge-row row">
         <div class="challenge-col col-lg-12">
           <div class="challenge-explore">
@@ -226,18 +254,19 @@
               <div class="explore-title">Converse</div>
               <div class="explore-description">Explore styles tough enough to handle all your workouts</div>
               <div style="height: 1.1rem"></div>
-              <button type="button" class="btn btn-grey btn-lg">Shop Brand</button>
+              <button type="button" class="btn btn-round btn-white btn-lg">Shop Brand</button>
             </div>
           </div>
         </div>
       </div>
-      <div class="challenge-row row challenge-space1"></div>
+      <div style="height: 1.5rem"></div>
       <div class="challenge-row no-padding row">
         <div class="challenge-col no-padding col-lg-12">
           <div class="challenge-subscribe">
             <div class="subscribe-label">SUBSCRIBE FOR SHOP NEWS, UPDATES AND SPECIAL OFFERS</div>
             <div class="subscribe-operation">
-              <button type="button" class="btn">Subscribe</button>
+              <input class="input-email" type="text" placeholder="Your e-mail here">
+              <button type="button" class="btn btn-round">Subscribe</button>
             </div>
           </div>
         </div>
