@@ -385,9 +385,10 @@ body {
 }
 
 .btn-lg {
-  padding: 1rem 2.1rem;
+  padding: 1rem 2.25rem;
   font-size: 16px;
   border-radius: 28px;
+  letter-spacing: -1px;
 }
 
 .btn-size {
@@ -461,7 +462,7 @@ body {
 .product-hot {
   position: absolute;
   top: 1.05rem;
-  left: 0.85rem;
+  left: 0.95rem;
 }
 
 .explore-content {
@@ -574,9 +575,9 @@ body {
 }
 
 .input-email {
-  width: 18.8rem;
+  width: 19.2rem;
   height: 2.1rem;
-  margin-right: 0.5rem;
+  margin-right: 0.3rem;
   border-radius: 18px;
   border: solid 0.5px #e1e1e1;
   background-image: url(../images/icon_email.png);
@@ -711,10 +712,6 @@ body {
 
 .styled-checkbox:hover + label:before {
   background: #6eb2fb;
-}
-
-.styled-checkbox:focus + label:before {
-  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
 }
 
 .styled-checkbox:checked + label:before {
