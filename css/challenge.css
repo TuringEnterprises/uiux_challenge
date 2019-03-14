@@ -329,7 +329,6 @@ body {
 .product-thumb {
   width: 100%;
   height: 10.1875rem;
-  text-align: center;
 }
 
 .product-title {
@@ -343,6 +342,10 @@ body {
   letter-spacing: normal;
   text-align: center;
   color: #2e2e2e;
+}
+
+.product-title-lg {
+  font-size: 25px;
 }
 
 .product-title.bold {
@@ -406,6 +409,14 @@ body {
   padding: 0.75rem 0.7rem;
   color: #f62f5e;
   background-color: #fafafa;
+}
+
+.btn-dropdown {
+  padding: 0.75rem 0.95rem;
+  color: #2e2e2e;
+  font-weight: normal;
+  border: solid 1px #e1e1e1;
+  background-color: #ffffff;
 }
 
 .product-circle {
@@ -761,4 +772,13 @@ body {
 {
 	background-color: #6c6d7a;
 	border: none;
+}
+
+.item-active {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #ffffffee;  
 }
