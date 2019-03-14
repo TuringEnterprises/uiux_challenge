@@ -377,6 +377,13 @@ body {
   font-size: 11px;
 }
 
+.btn-quick-view {
+  padding: 0.75rem 0.85rem;
+}
+
+.btn-subscribe {
+  padding: 0.75rem 1.05rem;
+}
 .btn-white {
   color: #f62f5e;
   background-color: #ffffff;
@@ -417,6 +424,7 @@ body {
   font-weight: normal;
   border: solid 1px #e1e1e1;
   background-color: #ffffff;
+  margin-right: 5px;
 }
 
 .product-circle {
@@ -427,8 +435,8 @@ body {
   display: inline-block;
   width: 0.875rem;
   height: 0.875rem;
-  margin-left: 0.3rem;
-  margin-right: 0.3rem;
+  margin-left: 0.28rem;
+  margin-right: 0.28rem;
   margin-top: 0.7rem;
   border-radius: 100%;
   background-color: #000000;  
@@ -479,22 +487,22 @@ body {
 .explore-content {
   width: 100%;
   padding-left: 3.75rem;
-  padding-top: 4.1rem;
+  padding-top: 3.9rem;
 }
 
 .explore-title {
   font-family: PlayfairDisplay;
-  font-size: 50px;
+  font-size: 55px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
-  letter-spacing: 2px;
+  letter-spacing: 0;
   color: #ffffff;  
 }
 
 .explore-description {
   width: 50%;
-  padding-top: 0.3rem;
+  padding-top: 0.15rem;
   opacity: 0.9;
   font-family: Montserrat;
   font-size: 24px;
@@ -524,7 +532,7 @@ body {
 .subscribe-operation {
   display: inline-table;
   float: right;
-  padding-top: 1.1rem;
+  padding-top: 1.15rem;
   padding-right: 1.875rem;  
 }
 
@@ -586,14 +594,14 @@ body {
 }
 
 .input-email {
-  width: 19.2rem;
+  width: 19.3rem;
   height: 2.1rem;
-  margin-right: 0.3rem;
+  margin-right: 0.5rem;
   border-radius: 18px;
   border: solid 0.5px #e1e1e1;
   background-image: url(../images/icon_email.png);
   background-repeat: no-repeat; 
-  background-position: 19px 12px;
+  background-position: 18px 11px;
   background-color: #ffffff;
   text-indent: 3rem;
   font-family: "Open Sans";
@@ -602,7 +610,7 @@ body {
   font-style: normal;
   font-stretch: normal;
   line-height: 1.71;
-  letter-spacing: normal;
+  letter-spacing: 1px;
   color: #bababa;
 }
 
@@ -781,4 +789,19 @@ body {
   top: 0;
   left: 0;
   background: #ffffffee;  
+}
+
+.product-wish {
+  font-family: 'Lucida Grande';
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #767676;
+}
+
+.product-wish span {
+  vertical-align: top; 
 }
