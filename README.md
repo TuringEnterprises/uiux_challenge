@@ -18,12 +18,12 @@ password: 111111
 
 ### Screeshots
 
-Sample page
+Sample Page vs  Current Page
 
-![Screenshot](screenshots/ui_sample.png)
+![Screenshot](screenshots/compare_ui.png)
 
-Main layout
+Difference
 
-![Screenshot](screenshots/ui_layout.png)
+![Screenshot](screenshots/difference_ui.png)
 ---
 © 2019 [Turing, Inc.](https://turing.com)
